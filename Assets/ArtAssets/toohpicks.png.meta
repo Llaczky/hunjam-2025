@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 942dea3b7c4d2394fa12c2814708625d
+guid: ef69f57b5081f8b4dbf04c15e54369f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5668518402485374812
-    second: Frame_0
+      213: -7569058075816843089
+    second: toohpicks_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Frame_0
+      name: toohpicks_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2139
-        height: 1200
+        width: 108
+        height: 206
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 208, y: 189, z: 130, w: 161}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a03819cb806551b0800000000000000
-      internalID: -5668518402485374812
+      spriteID: fa8a2aa58cd45f690800000000000000
+      internalID: -7569058075816843089
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b220ea32addb1ca48ad59ebd6b4bb1c4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Frame_0: -5668518402485374812
+      toohpicks_0: -7569058075816843089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

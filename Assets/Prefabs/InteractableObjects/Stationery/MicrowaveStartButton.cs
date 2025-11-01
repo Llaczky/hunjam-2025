@@ -14,6 +14,8 @@ public class MicrowaveStartButton : InteractableBase
 
 
     [SerializeField] GameObject _brokenMicro;
+    [SerializeField] GameObject _wallExplosion;
+    [SerializeField] GameObject _spoonAnimation;
     [SerializeField] GameObject _micro;
 
     // Optional: assign a Canvas that will be used for the white flash (should cover the screen).
@@ -62,6 +64,7 @@ public class MicrowaveStartButton : InteractableBase
 
     IEnumerator StartExplosionCountdown()
     {
+        _spoonAnimation.SetActive(true);
         microwaveStartSound.Play();
         while (microwaveStartSound.isPlaying)
         {
@@ -72,8 +75,9 @@ public class MicrowaveStartButton : InteractableBase
         mustard.Explode();
 
         _brokenMicro.SetActive(true);
+        _wallExplosion.SetActive(true);
         _micro.SetActive(false);
-
+        _spoonAnimation.SetActive(false);
         // Start white flash effect using the assigned Canvas
         if (flashCanvas != null)
         {
